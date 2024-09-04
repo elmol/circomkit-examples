@@ -19,7 +19,7 @@ You can use the following commands to test the circuits:
 
 ```sh
 ## testing
-yarn test -g multiplier_2
+yarn test -g multiplier2
 ```
 
 ```sh
@@ -36,6 +36,11 @@ npx circomkit contract multiplier_2
 npx circomkit calldata multiplier_2
 ```
 
+### bit_ops
+```sh
+## testing
+yarn test -g bit_ops
+```
 
 ---
 ---
