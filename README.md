@@ -1,5 +1,45 @@
 # Circomkit Examples
 
+## Setup 
+
+### Install Circom
+Need [Circom](https://docs.circom.io), which can be installed following the instructions [here](https://docs.circom.io/getting-started/installation/).
+
+### Install
+
+``` sh
+ yarn install
+```
+
+## Play Ground
+
+### multiplier_2
+
+You can use the following commands to test the circuits:
+
+```sh
+## testing
+yarn test -g multiplier_2
+```
+
+```sh
+## proof generation
+npx circomkit prove multiplier_2
+
+## verification
+npx circomkit verify multiplier_2
+
+```
+
+```sh
+npx circomkit contract multiplier_2
+npx circomkit calldata multiplier_2
+```
+
+
+---
+---
+---
 In this repository, we are using [Circomkit](https://github.com/erhant/circomkit) to test some example circuits using Mocha. The circuits and the statements that they prove are as follows:
 
 - **Multiplier**: "I know `n` factors that make up some number".

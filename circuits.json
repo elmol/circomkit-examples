@@ -35,5 +35,10 @@
     "file": "fibonacci",
     "template": "Fibonacci",
     "params": [11]
+  },
+  "multiplier_2": {
+    "file": "multiplier2",
+    "template": "Multiplier2"
   }
+
 }
